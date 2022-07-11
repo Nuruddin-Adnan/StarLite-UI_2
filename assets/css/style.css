@@ -38,6 +38,163 @@ body {
   color: #000;
 }
 
+.navbar::before {
+  content: "";
+  width: 100%;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+}
+.navbar.navbar-dark .stars-exchange-wrap {
+  filter: drop-shadow(0 0 16px rgba(255, 131, 0, 0.55));
+}
+.navbar.navbar-dark .stars-exchange-wrap .stars-exchange {
+  background: linear-gradient(90deg, rgb(25, 30, 36) 0%, rgb(47, 52, 77) 100%);
+  padding-right: 50px;
+  -webkit-clip-path: polygon(100% 0, 95% 53%, 89% 53%, 84% 99%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 95% 53%, 89% 53%, 84% 99%, 0 100%, 0 0);
+}
+@media (min-width: 1400px) {
+  .navbar.navbar-dark .stars-exchange-wrap .stars-exchange {
+    padding-right: 100px;
+  }
+}
+.navbar.navbar-dark .stars-exchange-wrap .text p {
+  font-size: 15px;
+  color: #fff;
+}
+.navbar.navbar-dark .stars-exchange-wrap .text span {
+  font-size: 13px;
+  color: #fff;
+}
+.navbar.navbar-dark .nav-link {
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+}
+@media (min-width: 1200px) {
+  .navbar.navbar-dark .nav-link {
+    padding: 1rem;
+  }
+}
+@media (min-width: 1400px) {
+  .navbar.navbar-dark .nav-link {
+    padding: 1rem 2rem;
+  }
+}
+.navbar.navbar-dark .nav-link.active {
+  background: linear-gradient(90deg, #f4a14e, #fef183);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 18px rgba(255, 131, 0, 0.5);
+}
+.navbar.navbar-dark .nav-link.active::before {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #f4a14e, #fef183);
+  -webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+          clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navbar.navbar-dark .nav-link.active::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #fef183, #f4a14e);
+  -webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+          clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+}
+.navbar.navbar-dark .nav-link:hover {
+  background: linear-gradient(90deg, #f4a14e, #fef183);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 18px rgba(255, 131, 0, 0.35);
+}
+.navbar.navbar-dark .profile-wrap {
+  filter: drop-shadow(0 0 16px rgba(255, 131, 0, 0.55));
+}
+.navbar.navbar-dark .profile-wrap .profile {
+  background: linear-gradient(90deg, rgb(25, 30, 36) 0%, rgb(47, 52, 77) 100%);
+  padding-left: 50px;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 25% 99%, 17% 45%, 7% 45%, 0 0);
+          clip-path: polygon(100% 0, 100% 100%, 25% 99%, 17% 45%, 7% 45%, 0 0);
+  min-width: 300px;
+}
+@media (min-width: 1400px) {
+  .navbar.navbar-dark .profile-wrap .profile {
+    padding-left: 100px;
+  }
+}
+.navbar.navbar-dark .profile-wrap .text p {
+  font-size: 15px;
+  color: #fff;
+}
+.navbar.navbar-dark .profile-wrap .text span {
+  font-size: 13px;
+  color: #fff;
+}
+
+.game-gallery .game-gallery-item {
+  position: relative;
+  box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.91);
+}
+.game-gallery .game-gallery-item .corner-bottom-right,
+.game-gallery .game-gallery-item .corner-bottom-left,
+.game-gallery .game-gallery-item .corner-top-right,
+.game-gallery .game-gallery-item .corner-top-left {
+  position: absolute;
+  z-index: -1;
+}
+.game-gallery .game-gallery-item .corner-top-left {
+  top: -5px;
+  left: -5px;
+}
+.game-gallery .game-gallery-item .corner-top-right {
+  top: -5px;
+  right: -5px;
+}
+.game-gallery .game-gallery-item .corner-bottom-left {
+  bottom: -5px;
+  left: -5px;
+}
+.game-gallery .game-gallery-item .corner-bottom-right {
+  bottom: -5px;
+  right: -5px;
+}
+.game-gallery .game-gallery-item.active {
+  box-shadow: 0 0 40px rgba(255, 147, 0, 0.95);
+}
+.game-gallery .game-gallery-item .text {
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.game-gallery .game-gallery-item .text h3 {
+  font-size: 18px;
+}
+.game-gallery .game-gallery-item .text p {
+  font-size: 9px;
+}
+.game-gallery .game-gallery-item.game-gallery-item-lg .text h3 {
+  font-size: 24px;
+}
+.game-gallery .game-gallery-item.game-gallery-item-lg .text p {
+  font-size: 10px;
+}
+
 /*=== base css start === */
 /*===// end of base css === */
 /*=== components css start === */
