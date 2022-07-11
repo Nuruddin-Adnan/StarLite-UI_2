@@ -1,14 +1,27 @@
 .navbar {
-    &::before {
-        content: '';
-        width: 100%;
-        height: 55px;
-        background-color: rgba(0, 0, 0, .40);
-        position: absolute;
-        top: 0;
+
+    @media (min-width: 1200px) {
+        &::before {
+            content: '';
+            width: 100%;
+            height: 55px;
+            background-color: rgba(0, 0, 0, .40);
+            position: absolute;
+            top: 0;
+        }
+    }
+
+    @media (max-width: 1199px) {
+        background-color: rgba(0, 0, 0, .60);
     }
 
     &.navbar-dark {
+        @media (max-width: 991px) {
+            .logo-img {
+                width: 50px;
+            }
+        }
+
         .stars-exchange-wrap {
             filter: drop-shadow(0 0 16px rgba(#ff8300, .55));
 
@@ -116,5 +129,10 @@
                 }
             }
         }
+    }
+
+    &.navbar-dark .navbar-toggler {
+        // font-size: 2rem;
+        border-color: #fff;
     }
 }
