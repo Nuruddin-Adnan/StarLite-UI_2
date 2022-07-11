@@ -13,207 +13,264 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="d-flex justify-content-between flex-column"
-  style="background: url(assets/images/StarLite-UI_2-work-Recovered.png) no-repeat center center/cover; min-height: 100vh;">
+<body>
 
-  <!-- === header section start === -->
-  <header>
-    <nav class="navbar navbar-expand-xl navbar-dark py-xl-0 position-relative">
-      <div class="container-fluid px-xl-0">
-
-        <a class="navbar-brand d-xl-none" href="index.html">
-          <img src="assets/images/logo/starlite-logo2.png" alt="logo" class="img-fluid logo-img">
-        </a>
-
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse align-items-start" id="navbarSupportedContent">
-          <div class="stars-exchange-wrap">
-            <a href="#" class="stars-exchange d-flex align-items-center">
-              <div class="flex-shrink-0 me-2">
-                <img src="assets/images/logo/star_logo.png" alt="">
-              </div>
-              <div class="text">
-                <p>stars exchange</p>
-                <span>s899001</span>
-              </div>
-            </a>
-          </div>
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="play.html">Play</a>
-            </li>
-            <li class="nav-item d-xl-block d-none">
-              <a class="nav-link" href="index.html">
-                <img src="assets/images/logo/starlite-logo2.png" alt="logo" class="logo img-fluid">
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">store</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">achievements</a>
-            </li>
-          </ul>
-          <div class="profile-wrap">
-            <a href="#" class="profile d-flex align-items-center justify-content-end">
-              <div class="text text-end">
-                <p>Jason</p>
-                <span>s899001</span>
-              </div>
-              <div class="flex-shrink-0 ms-2">
-                <img src="assets/images/profile-avatar.png" alt="">
-              </div>
-            </a>
-          </div>
-        </div>
+  <div class="preloader-wrap">
+    <div class="d-flex justify-content-between flex-column"
+      style="background: url(assets/images/loader-bg.png) no-repeat center center/cover; min-height: 100vh;">
+      <div class="text-center p-4">
+        <img src="assets/images/logo/starlite-logo-full.png" alt="logo2" class="img-fluid">
       </div>
-    </nav>
-  </header>
-  <!-- ===//end of header section === -->
+      <div>
+        <div class="loader">
+          <div class="trackbar">
+            <div class="loadbar"></div>
+          </div>
+          <!-- <div class="glow"></div> -->
+        </div>
 
-  <main>
+        <div class="percentage">LOADING <span id="precent"></span></div>
 
-    <!-- === game-gallery section start === -->
-    <section class="game-gallery my-5">
-      <div class="container-fluid">
-        <div class="row g-3 g-xl-4 px-sm-5">
-          <div class="col-xl-6">
-            <div class="game-gallery-item game-gallery-item-lg active">
-              <img src="assets/images/icon/corner-top-left.png" alt="corner" class="corner-top-left">
-              <img src="assets/images/icon/corner-top-right.png" alt="corner" class="corner-top-right">
-              <img src="assets/images/icon/corner-bottom-left.png" alt="corner" class="corner-bottom-left">
-              <img src="assets/images/icon/corner-bottom-right.png" alt="corner" class="corner-bottom-right">
-              <a href="#">
+        <!-- === footer section start === -->
+        <footer class="footer mt-5">
+          <div class="container-fluid">
+            <div class="row gy-4 px-sm-5 justify-content-between">
+              <div class="col-lg-6 m-auto">
+                <div class="footer-brand">
+                  <div class="d-flex align-items-center justify-content-around">
+                    <div class="brand-item">
+                      <img src="assets/images/footer/logo-1.png" alt="footer-logo" class="img-fluid">
+                    </div>
+                    <div class="brand-item">
+                      <img src="assets/images/footer/logo-2.png" alt="footer-logo" class="img-fluid">
+                    </div>
+                    <div class="brand-item">
+                      <img src="assets/images/footer/logo-3.png" alt="footer-logo" class="img-fluid">
+                    </div>
+                    <div class="brand-item">
+                      <img src="assets/images/footer/logo-4.png" alt="footer-logo" class="img-fluid">
+                    </div>
+                    <div class="brand-item">
+                      <img src="assets/images/footer/logo-5.png" alt="footer-logo" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- ===//end of footer section === -->
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-between flex-column"
+    style="background: url(assets/images/StarLite-UI_2-work-Recovered.png) no-repeat center center/cover; min-height: 100vh;">
+
+    <!-- === header section start === -->
+    <header>
+      <nav class="navbar navbar-expand-xl navbar-dark py-xl-0 position-relative">
+        <div class="container-fluid px-xl-0">
+
+          <a class="navbar-brand d-xl-none" href="index.html">
+            <img src="assets/images/logo/starlite-logo2.png" alt="logo" class="img-fluid logo-img">
+          </a>
+
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse align-items-start" id="navbarSupportedContent">
+            <div class="stars-exchange-wrap">
+              <a href="#" class="stars-exchange d-flex align-items-center">
+                <div class="flex-shrink-0 me-2">
+                  <img src="assets/images/logo/star_logo.png" alt="">
+                </div>
                 <div class="text">
-                  <h3>Bering cross</h3>
-                  <p>Let's go for a quick ride</p>
+                  <p>stars exchange</p>
+                  <span>s899001</span>
                 </div>
-                <div class="img-box overflow-hidden">
-                  <img src="assets/images/game-image/home-1.png" alt="game-gallery-item" class="w-100">
+              </a>
+            </div>
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="play.html">Play</a>
+              </li>
+              <li class="nav-item d-xl-block d-none">
+                <a class="nav-link" href="index.html">
+                  <img src="assets/images/logo/starlite-logo2.png" alt="logo" class="logo img-fluid">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">store</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">achievements</a>
+              </li>
+            </ul>
+            <div class="profile-wrap">
+              <a href="#" class="profile d-flex align-items-center justify-content-end">
+                <div class="text text-end">
+                  <p>Jason</p>
+                  <span>s899001</span>
+                </div>
+                <div class="flex-shrink-0 ms-2">
+                  <img src="assets/images/profile-avatar.png" alt="">
                 </div>
               </a>
             </div>
           </div>
-          <div class="col-xl-6">
-            <div class="row g-3 g-xl-4">
-              <div class="col-md-6">
-                <div class="game-gallery-item">
-                  <a href="#">
-                    <div class="text">
-                      <h3>setup your car</h3>
-                      <p>Customize your car</p>
-                    </div>
-                    <div class="img-box overflow-hidden">
-                      <img src="assets/images/game-image/home-2.png" alt="game-gallery-item" class="w-100">
-                    </div>
-                  </a>
-                </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ===//end of header section === -->
+
+    <main>
+
+      <!-- === game-gallery section start === -->
+      <section class="game-gallery my-5">
+        <div class="container-fluid">
+          <div class="row g-3 g-xl-4 px-sm-5">
+            <div class="col-xl-6">
+              <div class="game-gallery-item game-gallery-item-lg active">
+                <img src="assets/images/icon/corner-top-left.png" alt="corner" class="corner-top-left">
+                <img src="assets/images/icon/corner-top-right.png" alt="corner" class="corner-top-right">
+                <img src="assets/images/icon/corner-bottom-left.png" alt="corner" class="corner-bottom-left">
+                <img src="assets/images/icon/corner-bottom-right.png" alt="corner" class="corner-bottom-right">
+                <a href="#">
+                  <div class="text">
+                    <h3>Bering cross</h3>
+                    <p>Let's go for a quick ride</p>
+                  </div>
+                  <div class="img-box overflow-hidden">
+                    <img src="assets/images/game-image/home-1.png" alt="game-gallery-item" class="w-100">
+                  </div>
+                </a>
               </div>
-              <div class="col-md-6">
-                <div class="game-gallery-item">
-                  <a href="#">
-                    <div class="text">
-                      <h3>Events</h3>
-                      <p>Participate in weekly activities</p>
-                    </div>
-                    <div class="img-box overflow-hidden">
-                      <img src="assets/images/game-image/home-4.png" alt="game-gallery-item" class="w-100">
-                    </div>
-                  </a>
+            </div>
+            <div class="col-xl-6">
+              <div class="row g-3 g-xl-4">
+                <div class="col-md-6">
+                  <div class="game-gallery-item">
+                    <a href="#">
+                      <div class="text">
+                        <h3>setup your car</h3>
+                        <p>Customize your car</p>
+                      </div>
+                      <div class="img-box overflow-hidden">
+                        <img src="assets/images/game-image/home-2.png" alt="game-gallery-item" class="w-100">
+                      </div>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="game-gallery-item">
-                  <a href="#">
-                    <div class="text">
-                      <h3>edit your profile</h3>
-                      <p>change your profile picture, name etc</p>
-                    </div>
-                    <div class="img-box overflow-hidden">
-                      <img src="assets/images/game-image/home-3.png" alt="game-gallery-item" class="w-100">
-                    </div>
-                  </a>
+                <div class="col-md-6">
+                  <div class="game-gallery-item">
+                    <a href="#">
+                      <div class="text">
+                        <h3>Events</h3>
+                        <p>Participate in weekly activities</p>
+                      </div>
+                      <div class="img-box overflow-hidden">
+                        <img src="assets/images/game-image/home-4.png" alt="game-gallery-item" class="w-100">
+                      </div>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="game-gallery-item">
-                  <a href="#">
-                    <div class="text">
-                      <h3>spectate</h3>
-                      <p>Watch the exciting events</p>
-                    </div>
-                    <div class="img-box overflow-hidden">
-                      <img src="assets/images/game-image/home-5.png" alt="game-gallery-item" class="w-100">
-                    </div>
-                  </a>
+                <div class="col-md-6">
+                  <div class="game-gallery-item">
+                    <a href="#">
+                      <div class="text">
+                        <h3>edit your profile</h3>
+                        <p>change your profile picture, name etc</p>
+                      </div>
+                      <div class="img-box overflow-hidden">
+                        <img src="assets/images/game-image/home-3.png" alt="game-gallery-item" class="w-100">
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="game-gallery-item">
+                    <a href="#">
+                      <div class="text">
+                        <h3>spectate</h3>
+                        <p>Watch the exciting events</p>
+                      </div>
+                      <div class="img-box overflow-hidden">
+                        <img src="assets/images/game-image/home-5.png" alt="game-gallery-item" class="w-100">
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- ===//end of game-gallery section === -->
+      </section>
+      <!-- ===//end of game-gallery section === -->
 
 
-    <!-- === footer section start === -->
-    <footer class="footer">
-      <div class="container-fluid">
-        <div class="row gy-4 px-sm-5 justify-content-between">
-          <div class="col-lg-3 col-6 order-1">
-            <div class="btn-wrap">
-              <div class="btn-wrap-inner">
-                <a href="#" class="btn btn-lg">QUIT</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 order-lg-2 order-3">
-            <div class="footer-brand">
-              <div class="d-flex align-items-center justify-content-around">
-                <div class="brand-item">
-                  <img src="assets/images/footer/logo-1.png" alt="footer-logo" class="img-fluid">
-                </div>
-                <div class="brand-item">
-                  <img src="assets/images/footer/logo-2.png" alt="footer-logo" class="img-fluid">
-                </div>
-                <div class="brand-item">
-                  <img src="assets/images/footer/logo-3.png" alt="footer-logo" class="img-fluid">
-                </div>
-                <div class="brand-item">
-                  <img src="assets/images/footer/logo-4.png" alt="footer-logo" class="img-fluid">
-                </div>
-                <div class="brand-item">
-                  <img src="assets/images/footer/logo-5.png" alt="footer-logo" class="img-fluid">
+      <!-- === footer section start === -->
+      <footer class="footer">
+        <div class="container-fluid">
+          <div class="row gy-4 px-sm-5 justify-content-between">
+            <div class="col-lg-3 col-6 order-1">
+              <div class="btn-wrap">
+                <div class="btn-wrap-inner">
+                  <a href="#" class="btn btn-lg">QUIT</a>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-6 order-lg-3 order-2">
-            <div class="btn-wrap text-end active">
-              <div class="btn-wrap-inner">
-                <a href="#" class="btn btn-lg">CONFIRM</a>
+            <div class="col-lg-6 order-lg-2 order-3">
+              <div class="footer-brand">
+                <div class="d-flex align-items-center justify-content-around">
+                  <div class="brand-item">
+                    <img src="assets/images/footer/logo-1.png" alt="footer-logo" class="img-fluid">
+                  </div>
+                  <div class="brand-item">
+                    <img src="assets/images/footer/logo-2.png" alt="footer-logo" class="img-fluid">
+                  </div>
+                  <div class="brand-item">
+                    <img src="assets/images/footer/logo-3.png" alt="footer-logo" class="img-fluid">
+                  </div>
+                  <div class="brand-item">
+                    <img src="assets/images/footer/logo-4.png" alt="footer-logo" class="img-fluid">
+                  </div>
+                  <div class="brand-item">
+                    <img src="assets/images/footer/logo-5.png" alt="footer-logo" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6 order-lg-3 order-2">
+              <div class="btn-wrap text-end active">
+                <div class="btn-wrap-inner">
+                  <a href="#" class="btn btn-lg">CONFIRM</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
-    <!-- ===//end of footer section === -->
+      </footer>
+      <!-- ===//end of footer section === -->
 
-  </main>
+    </main>
+  </div>
 
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="assets/vendor/bootstrap/js/popper.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/vendor/swiper/js/swiper-bundle.min.js"></script>
   <script src="assets/js/app.js"></script>
+
 </body>
 
 </html>
