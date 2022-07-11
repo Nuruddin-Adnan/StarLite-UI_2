@@ -1,0 +1,19 @@
+@use '../abstracts/variables';
+
+@font-face {
+  font-family: VenusRising;
+  src: url(../fonts/VenusRising-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: VenusRising;
+  src: url(../fonts/VenusRisingEl-Regular.ttf);
+  font-weight: 300;
+}
+
+body {
+  font-family: VenusRising;
+  font-weight: 400;
+  color: variables.$color-black;
+}
